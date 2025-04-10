@@ -1,21 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Feb 18 19:37:43 2018
 
-@author: Apostolidou Maria
-
-Description: Training module of 1st order Markov Chain
-             using nltk corpora from project gutenberg
-             
-Important: To use you need to download nltk and change the path accordingly, 
-           to find the nltk_date/corpora/gutenberg folder on your computer.
-           To train the markov chain, any text file can be used.
-           To create and train a markov chain with a text file example.txt
-           run:
-               mc = MarkovChain(0)
-               mc.train('example.txt')
-"""
 from chain import MarkovChain
 from nltk.corpus import gutenberg
 
