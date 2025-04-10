@@ -1,12 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Feb 19 17:49:21 2018
 
-@author: Apostolidou Maria
-
-Description: For user to run.
-"""
 
 from chain import MarkovChain
 import sys
